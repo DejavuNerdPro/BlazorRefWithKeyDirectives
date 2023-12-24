@@ -3,7 +3,7 @@
 
 @foreach (var item in itemList)
 {
-    <ListItemComponent @ref="item.Id" ItemData="item" />
+    <ListItemComponent @key="item.Id" ItemData="item" />
 }
 
 @code {
