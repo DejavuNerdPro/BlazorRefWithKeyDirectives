@@ -99,7 +99,7 @@ using Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "D:\KeyWithRefDirective\BlazorRefWithKeyDirectives\Pages\RefDirectiveComponent.razor"
+#line 13 "D:\KeyWithRefDirective\BlazorRefWithKeyDirectives\Pages\RefDirectiveComponent.razor"
        
     private Dictionary<int, ListItemComponent> itemRefs = new Dictionary<int, ListItemComponent>();
     private List<Penicillin> itemList = new List<Penicillin>();
