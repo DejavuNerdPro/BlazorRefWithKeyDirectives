@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\KeyWithRefDirective\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "D:\\KeyWithRefDirective\\BlazorRefWithKeyDirectives\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "D:\\KeyWithRefDirective\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "D:\\KeyWithRefDirective\\BlazorRefWithKeyDirectives\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\KeyWithRefDirective\\WebApplication1\\obj\\",
+      "outputPath": "D:\\KeyWithRefDirective\\BlazorRefWithKeyDirectives\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",

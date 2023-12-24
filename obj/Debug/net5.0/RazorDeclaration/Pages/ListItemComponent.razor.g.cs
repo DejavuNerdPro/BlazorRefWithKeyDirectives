@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace WebApplication1.Shared
+namespace WebApplication1.Pages
 {
     #line hidden
     using System;
@@ -82,13 +82,30 @@ using WebApplication1.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class MainLayout : LayoutComponentBase
+#nullable restore
+#line 1 "D:\KeyWithRefDirective\BlazorRefWithKeyDirectives\Pages\ListItemComponent.razor"
+using Data;
+
+#line default
+#line hidden
+#nullable disable
+    public partial class ListItemComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 12 "D:\KeyWithRefDirective\BlazorRefWithKeyDirectives\Pages\ListItemComponent.razor"
+       
+    // Define a parameter for passing the item data to the component
+    [Parameter]
+    public Penicillin ItemData { get; set; }
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

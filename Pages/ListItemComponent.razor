@@ -1,0 +1,16 @@
+﻿@using Data;
+<tr>
+    <td>@ItemData.Id</td>
+    <td>@ItemData.Name</td>
+    <td>@ItemData.Type</td>
+    <td>@ItemData.Description</td>
+    <td>@ItemData.Temperature</td>
+    <td>@ItemData.Density</td>
+    <td>@ItemData.Cons</td>
+</tr>
+
+@code {
+    // Define a parameter for passing the item data to the component
+    [Parameter]
+    public Penicillin ItemData { get; set; }
+}
